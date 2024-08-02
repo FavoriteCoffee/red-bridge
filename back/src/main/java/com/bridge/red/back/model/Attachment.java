@@ -1,9 +1,12 @@
 package com.bridge.red.back.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 
 import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
 
 @Builder
 @Getter
@@ -28,4 +31,8 @@ public class Attachment {
 
     @Column(name = "downloadLink")
     private String downloadLink;
+
+    @JsonIgnore
+    @ManyToMany(fetch = FetchType.EAGER, mappedBy = "attachments")
+    private Set<Card> cards=new HashSet<>();
 }
