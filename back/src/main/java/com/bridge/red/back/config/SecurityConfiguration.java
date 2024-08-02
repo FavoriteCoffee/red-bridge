@@ -43,9 +43,10 @@ public class SecurityConfiguration {
                     return corsConfiguration;
                 }))
                 .authorizeHttpRequests(request -> request
-                        .requestMatchers("/auth/**").permitAll()
-                        .requestMatchers(HttpMethod.GET).permitAll()
-                        .anyRequest().authenticated())
+                        .requestMatchers("/auth/sign-in").permitAll()
+                        .requestMatchers("/auth/sign-up").authenticated()
+                        .requestMatchers("/admin/**").authenticated()
+                        .anyRequest().permitAll())
                 .sessionManagement(manager -> manager.sessionCreationPolicy(STATELESS))
                 .authenticationProvider(authenticationProvider())
                 .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
