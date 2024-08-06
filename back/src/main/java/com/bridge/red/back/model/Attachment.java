@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -27,7 +27,7 @@ public class Attachment {
     private String extension;
 
     @Column(nullable = false, updatable = false)
-    private Date uploadDate;
+    private LocalDateTime uploadDate;
 
     @Column(name = "downloadLink")
     private String downloadLink;

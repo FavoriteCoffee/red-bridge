@@ -3,6 +3,8 @@ package com.bridge.red.back.service;
 import com.bridge.red.back.model.Attachment;
 import com.bridge.red.back.repo.AttachmentRepository;
 import lombok.RequiredArgsConstructor;
+import lombok.Value;
+import org.springframework.core.env.Environment;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.UrlResource;
 import org.springframework.stereotype.Service;
@@ -13,32 +15,36 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.time.LocalDateTime;
 import java.time.Year;
+import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Locale;
+import java.util.Objects;
 
 @Service
 @RequiredArgsConstructor
 public class AttachmentService {
     private final AttachmentRepository attachmentRepository;
+    private final Environment env;
 
 
     public Attachment addAttachment(MultipartFile file) throws IOException {
-        File uploadDir = new File(System.getProperty("upload.path"));
+        File uploadDir = new File(Objects.requireNonNull(env.getProperty("upload.path")));
         // Если директория uploads не существует, то создаем ее
         if (!uploadDir.exists()) {
             uploadDir.mkdirs();
         }
-        Calendar cal = Calendar.getInstance();
-        cal.add(Calendar.DATE, -1);
-        Date date = cal.getTime();
-        String curDate = date.toString();
+        LocalDateTime ldt = LocalDateTime.now();
+        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy_MM_dd", Locale.ENGLISH);
+        String curDate = dateTimeFormatter.format(ldt);
         String fileName =
                 "attach_" + curDate + "_" + file.getOriginalFilename().toLowerCase().replaceAll(" ", "-");
-        file.transferTo(new File(uploadDir + "/" + fileName));
+        file.transferTo(Path.of(uploadDir + "/" + fileName));
         Attachment attachment = Attachment.builder()
                 .attachTitle(fileName)
-                .uploadDate(date)
+                .uploadDate(ldt)
                 .extension(file.getOriginalFilename().substring(file.getOriginalFilename().lastIndexOf(".") + 1))
                 .downloadLink("/attachments/get/" + Year.now() + "/" + fileName)
                 .build();
@@ -57,7 +63,7 @@ public class AttachmentService {
     public Resource loadFileAsResource( String fileName)
             throws MalformedURLException {
         Path fileStorageLocation =
-                Paths.get(System.getProperty("upload.path")).toAbsolutePath().normalize();
+                Paths.get(Objects.requireNonNull(env.getProperty("upload.path"))).toAbsolutePath().normalize();
         Path filePath = fileStorageLocation.resolve(fileName).normalize();
         return new UrlResource(filePath.toUri());
     }
