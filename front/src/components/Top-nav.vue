@@ -1,35 +1,30 @@
 <template>
     <div id="top-nav-ext">   
-        <router-link to="/main" class="nav-link">
-            <a class="top-nav">главная</a>
-        </router-link> 
-        <router-link to="/main" class="nav-link">
-            <a class="top-nav">новости</a>
-        </router-link> 
-        <router-link to="/main" class="nav-link">
-            <a class="top-nav">линии</a>
-        </router-link> 
-        <router-link to="/technique" class="nav-link">
-            <a class="top-nav" >техника </a>
-        </router-link> 
-        <router-link to="/main" class="nav-link">
-            <a class="top-nav">видео</a>
-        </router-link> 
-        <router-link to="/main" class="nav-link">
-            <a class="top-nav">о нас</a>
-        </router-link>  
-        <router-link to="/main" class="nav-link">
-            <a class="top-nav">контакты</a>
-        </router-link>     
-        
-        
-        
-        
-        
-        
-        
- 
-        <a class="top-nav" id="top-nav-en">en</a>
+        <div id="top-nav-in">
+            <router-link to="/main" class="nav-link">
+                <a class="top-nav">главная</a>
+            </router-link> 
+            <router-link to="/main" class="nav-link">
+                <a class="top-nav">новости</a>
+            </router-link> 
+            <router-link to="/main" class="nav-link">
+                <a class="top-nav">линии</a>
+            </router-link> 
+            <router-link to="/technique" class="nav-link">
+                <a class="top-nav" >техника </a>
+            </router-link> 
+            <router-link to="/main" class="nav-link">
+                <a class="top-nav">видео</a>
+            </router-link> 
+            <router-link to="/main" class="nav-link">
+                <a class="top-nav">о нас</a>
+            </router-link>  
+            <router-link to="/main" class="nav-link">
+                <a class="top-nav">контакты</a>
+            </router-link>     
+            
+            <a class="top-nav" id="top-nav-en">en</a>
+        </div>
     </div>
 </template>
 
@@ -42,7 +37,7 @@
     margin: 0;
     width: 100%;
     background-color: #f5f5f5;
-    padding-left: 100px;
+    
     height: 50px;
     padding-top: 13px;
     padding-right: 0;
@@ -66,4 +61,9 @@
     float: right;
 }
 
+#top-nav-in{
+    margin: 0 auto;
+    max-width: 1100px;
+    
+}
 </style>

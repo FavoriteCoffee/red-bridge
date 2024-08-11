@@ -103,7 +103,8 @@ h2{
     float: right;
     padding: 23px;
     padding-top: 0%;
-    margin: 20px 10% 20px 3%;    
+    margin-top: 20px;
+    margin-left: 20px;    
 }
 
 #dfform-textarea{
