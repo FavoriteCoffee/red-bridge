@@ -1,29 +1,34 @@
 <template>
-    <div id="header_rec">
-        <v-row id="header_nav">
-            <a class="nav">линии</a>
-            <a class="nav">техника </a>
-            <a class="nav">новости</a>
-            <a class="nav">видео</a>
-        </v-row>
-        <v-row>
-            <h1>
-                Красный мост
-            </h1>
-        </v-row>
-        <v-row id="header_contacts1">
-            +10 8613910036529
-        </v-row>
-        <v-row id="header_contacts2">
-            +7 903 651-64-08
-        </v-row>
-        <v-row>
-            <button class="header_button">
-                заявка
-            </button>
-        </v-row>
-    </div>
-    <div id="triangle-topleft"></div>
+    <!-- <div id="bg"> -->
+        <div id="content">
+            <div id="header_rec">
+                <v-row id="header_nav">
+                    <a class="nav">линии</a>
+                    <a class="nav">техника </a>
+                    <a class="nav">новости</a>
+                    <a class="nav">видео</a>
+                </v-row>
+                <v-row>
+                    <h1>
+                        Красный мост
+                    </h1>
+                </v-row>
+                <v-row id="header_contacts1">
+                    +10 8613910036529
+                </v-row>
+                <v-row id="header_contacts2">
+                    +7 903 651-64-08
+                </v-row>
+                <v-row>
+                    <button class="header_button">
+                        заявка
+                    </button>
+                </v-row>
+            </div>
+
+            <div id="triangle-bottomright"></div>
+        </div>
+    <!-- </div> -->
 </template>
 
 <script setup>
@@ -32,24 +37,44 @@
 <style>
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: white;
+    background-color: #fff;
 }
-#triangle-topleft {
+
+template{
+    background-color: #BC1E2d;
+}
+/* 
+#bg{
+    background-color: #BC1E2d;
+    width: 100%;
+    height: ;
+    padding-left: 100px;
+    margin-left: 300px;
+} */
+
+#content{
+    width: 1000px;
+    margin: 0 auto;
+    float: right;
+}
+
+#triangle-bottomright {
 	width: 0;
 	height: 0;
-    float: left;
+    float: right;
     margin: 0;
-	border-top: 270px solid #BC1E2d; 
-	border-right: 270px solid transparent;			
+	border-bottom: 270px solid #fff; 
+	border-left: 270px solid transparent;			
 }
 #header_rec{
     color: white;
     background-color: #BC1E2d;
-    padding-left: 100px;
+    float: left;
     padding-top: 35px;
     height: 270px;
-    width: 50%;
-    float: left;
+    width: 600px;
+    
+    
 }
 div.v-col{
     margin: 0;

@@ -56,14 +56,14 @@
 }
 
 #top-nav-en{
-    margin-right: 3%;
+    /* margin-right: 3%; */
     text-decoration: none;
     float: right;
 }
 
 #top-nav-in{
     margin: 0 auto;
-    max-width: 1100px;
+    max-width: 900px;
     
 }
 </style>

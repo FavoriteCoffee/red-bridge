@@ -3,39 +3,19 @@
         <v-row>
             <v-col>
                 <diV class="sqr">
-                    <img src="../../public/favicon.ico">
+                    <img src="../../favicon.ico">
                     <p class="sqr-title">танк Т-80</p>
                 </diV>
             </v-col>
             <v-col>
                 <diV class="sqr">
-                    <img src="../../public/favicon.ico">
+                    <img src="../../favicon.ico">
                     <p class="sqr-title">танк Т-80</p>
                 </diV>
             </v-col>
             <v-col>
                 <diV class="sqr">
-                    <img src="../../public/favicon.ico">
-                    <p class="sqr-title">танк Т-80</p>
-                </diV>
-            </v-col>
-        </v-row>
-        <v-row>
-            <v-col>
-                <diV class="sqr">
-                    <img src="../../public/favicon.ico">
-                    <p class="sqr-title">танк Т-80</p>
-                </diV>
-            </v-col>
-            <v-col>
-                <diV class="sqr">
-                    <img src="../../public/favicon.ico">
-                    <p class="sqr-title">танк Т-80</p>
-                </diV>
-            </v-col>
-            <v-col>
-                <diV class="sqr">
-                    <img src="../../public/favicon.ico">
+                    <img src="../../favicon.ico">
                     <p class="sqr-title">танк Т-80</p>
                 </diV>
             </v-col>
@@ -43,19 +23,39 @@
         <v-row>
             <v-col>
                 <diV class="sqr">
-                    <img src="../../public/favicon.ico">
+                    <img src="../../favicon.ico">
                     <p class="sqr-title">танк Т-80</p>
                 </diV>
             </v-col>
             <v-col>
                 <diV class="sqr">
-                    <img src="../../public/favicon.ico">
+                    <img src="../../favicon.ico">
                     <p class="sqr-title">танк Т-80</p>
                 </diV>
             </v-col>
             <v-col>
                 <diV class="sqr">
-                    <img src="../../public/favicon.ico">
+                    <img src="../../favicon.ico">
+                    <p class="sqr-title">танк Т-80</p>
+                </diV>
+            </v-col>
+        </v-row>
+        <v-row>
+            <v-col>
+                <diV class="sqr">
+                    <img src="../../favicon.ico">
+                    <p class="sqr-title">танк Т-80</p>
+                </diV>
+            </v-col>
+            <v-col>
+                <diV class="sqr">
+                    <img src="../../favicon.ico">
+                    <p class="sqr-title">танк Т-80</p>
+                </diV>
+            </v-col>
+            <v-col>
+                <diV class="sqr">
+                    <img src="../../favicon.ico">
                     <p class="sqr-title">танк Т-80</p>
                 </diV>
             </v-col>

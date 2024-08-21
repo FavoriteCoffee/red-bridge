@@ -1,6 +1,8 @@
 <template>
+    <Header></Header>
+    <newheader></newheader>
     <v-row>
-        <Header></Header>
+        
     </v-row>    
     <v-row>
         <Top_nav></Top_nav>
@@ -46,12 +48,13 @@
     import Top_nav from "../components/Top-nav.vue"
     import Footer from "../components/Footer.vue"
     import FeedbackForm from "../components/FeedbackForm.vue"
+    import newheader from "../components/newheader.vue"
 </script>
 
 <style>
 #main_content{
     margin: 0 auto;
-    max-width: 1100px;
+    max-width: 900px;
 }
 
 #content{
@@ -60,9 +63,14 @@
    
     margin-top: 20px;
 }
+
 p{
     margin: 0;
     padding: 0;
+}
+
+.v-row{
+    width: 100%;
 }
 
 #form{
