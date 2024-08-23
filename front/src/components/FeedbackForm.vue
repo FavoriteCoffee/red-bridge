@@ -33,6 +33,17 @@
 </script>
 
 <style>
+h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+</style>
+
+
+<style scoped>
 .fbform-input{
     border: none;
     outline: none;
@@ -82,12 +93,6 @@
     border-radius: 30px;
 }
 
-h2{
-    font-size: 24px;
-    text-transform: uppercase;
-    margin-bottom: 27px;
-    margin-top: 27px;
-}
 
 #dfform-textarea-input{
     margin: 0;
@@ -104,7 +109,7 @@ h2{
     padding: 23px;
     padding-top: 0%;
     margin-top: 20px;
-    margin-left: 20px;    
+       
 }
 
 #dfform-textarea{

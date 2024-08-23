@@ -1,15 +1,15 @@
 <template>
-    <Header></Header>
-    <newheader></newheader>
+ 
     <v-row>
-        
+           <Header></Header>
+        <newheader></newheader>
     </v-row>    
     <v-row>
         <Top_nav></Top_nav>
     </v-row>
     <v-row>
         <div id="main_content">
-            <div id="content">
+            <div class="content">
                 <p>11111111111111111111111111111111111111111111111111
                     11111111111111111111111111111111111111111111111111
                     11111111111111111111111111111111111111111111111111
@@ -26,6 +26,7 @@
                     11111111111111111111111111111111111111111111111111
                     11111111111111111111111111111111111111111111111111
                 </p>
+                <kvadratikiTehnika></kvadratikiTehnika>
             </div>
             <div id="form">
                 <FeedbackForm></FeedbackForm>
@@ -49,14 +50,15 @@
     import Footer from "../components/Footer.vue"
     import FeedbackForm from "../components/FeedbackForm.vue"
     import newheader from "../components/newheader.vue"
+    import kvadratikiTehnika from "@/components/kvadratiki-tehnika.vue"
 </script>
 
-<style>
-#main_content{
+<style scoped>
+ #main_content{
     margin: 0 auto;
     max-width: 900px;
 }
-
+/*
 #content{
     float: left;
     width: 700px;
@@ -68,12 +70,12 @@ p{
     margin: 0;
     padding: 0;
 }
-
+*/
 .v-row{
     width: 100%;
 }
-
+/*
 #form{
     float: right;
-}
+} */
 </style>

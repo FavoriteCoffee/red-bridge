@@ -32,7 +32,7 @@
 <script setup>
 </script>
 
-<style>
+<style scoped>
 #header-background{
     width: 100%;
     background-color: brown;

@@ -32,7 +32,7 @@
 
 </script>
 
-<style>
+<style scoped>
 #top-nav-ext{
     margin: 0;
     width: 100%;
@@ -63,7 +63,7 @@
 
 #top-nav-in{
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 1060px;
     
 }
 </style>

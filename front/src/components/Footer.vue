@@ -1,8 +1,8 @@
 <template>
     <div id="footer-rec">
-        <div id="footer-content">
+        <div class="content">
             <v-row>
-                <v-col cols="3">
+                <v-col cols="4">
                     <v-row>
                         <h4>Наша продукция</h4>
                     </v-row>    
@@ -26,7 +26,7 @@
                     <v-row>
                         <a class="footer-nav">Как купить</a>
                     </v-row>
-                </v-col cols="2">
+                </v-col cols="3">
                 <v-col id="footer-nav-col3">
                     <v-row>
                         <a class="material-symbols-outlined">call</a>
@@ -65,21 +65,32 @@
 </script>
 
 <style>
+.content{
+    width: 1060px;
+    margin: 0 auto;
+}
+
+.v-row{
+    margin: 0;
+    padding: 0;
+}
+
+.v-col{
+    margin: 0;
+    padding: 0;
+}
+</style>
+
+<style scoped>
 .material-symbols-outlined{
     padding-top: 2px;
     margin-right: 0.5em;
-    
 }
 
-#footer-content{
-    max-width: 900px;
-    margin: auto;
-}
 
-#footer-rec{
+ #footer-rec{
     color: white;
-    
-    padding-top: 5%;
+    padding-top: 30px;
     margin-top: 50px;
     background-color: #bc1e2d;
     width: 100%;
@@ -90,9 +101,9 @@
     font-size: 14px;
     font-weight: 200;
     text-decoration: underline;
-    text-decoration-thickness: .5px;
+    text-decoration-thickness: 0.5px;
     letter-spacing: 0.05em;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 h4{
@@ -116,5 +127,5 @@ h4{
 #social-network{
     margin-top: 60px;
     width: 200px;
-}
+} 
 </style>

@@ -39,12 +39,14 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: #fff;
 }
+</style>
 
+<style scoped>
 template{
     background-color: #BC1E2d;
 }
-/* 
-#bg{
+
+/* #bg{
     background-color: #BC1E2d;
     width: 100%;
     height: ;

@@ -1,8 +1,9 @@
 <template>
   <v-app>
     <v-main>
-      <Main></Main>
+      <!-- <Main></Main> -->
        <!-- <Technique></Technique> -->
+        <Lines></Lines>
       <router-view />
     </v-main>
   </v-app>
@@ -11,4 +12,5 @@
 <script setup>
   import Main from "./pages/Main.vue"
   import Technique from "./pages/Technique.vue"
+  import Lines from "./pages/Lines"
 </script>
