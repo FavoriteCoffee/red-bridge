@@ -1,6 +1,6 @@
 <template>
     <!-- <div id="bg"> -->
-        <div id="content">
+        <div id="hcontent">
             <div id="header_rec">
                 <v-row id="header_nav">
                     <a class="nav">линии</a>
@@ -54,11 +54,12 @@ template{
     margin-left: 300px;
 } */
 
-#content{
+/* #content{
     width: 1000px;
     margin: 0 auto;
     float: right;
-}
+    font-size: 22px;
+} */
 
 #triangle-bottomright {
 	width: 0;

@@ -50,7 +50,7 @@
     text-transform: uppercase;
     text-decoration: underline;
     margin: 0;
-    margin-right: 65px;
+    margin-right: 6%;
     letter-spacing: 0.05em;
     
 }
@@ -59,11 +59,12 @@
     /* margin-right: 3%; */
     text-decoration: none;
     float: right;
+    margin-right:0 ;
 }
 
 #top-nav-in{
     margin: 0 auto;
-    max-width: 1060px;
+    max-width: 1000px;
     
 }
 </style>

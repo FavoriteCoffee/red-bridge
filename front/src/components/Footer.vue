@@ -66,7 +66,7 @@
 
 <style>
 .content{
-    width: 1060px;
+    width: 1000px;
     margin: 0 auto;
 }
 

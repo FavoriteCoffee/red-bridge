@@ -114,13 +114,14 @@
 .sqr{
     margin: 0;
     padding: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border: solid;
     border-radius: 5px;
     border-color: #eaeaea;
     border-width: 1px;
-    height: 220px;
-    width: 220px;
+    height: 210px;
+    width: 210px;
+    font-size: 16px;
 }
 
 .sqr:hover{
@@ -136,21 +137,22 @@
 
 .nav-image{
     width: 100%;
-    height: 160px;
+    height: 140px;
     background-color: #fff;
     margin: 0 auto;
 }
 
 img{
-    height: 160px;
+    height:140px;
+    clear: both;
 }
 
-.v-col{
+.v-row{
     margin: 0;
     padding: 0;
 }
 
-.v-row{
+.v-col{
     margin: 0;
     padding: 0;
 }

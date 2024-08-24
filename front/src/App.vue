@@ -1,9 +1,9 @@
 <template>
   <v-app>
     <v-main>
-      <!-- <Main></Main> -->
-       <!-- <Technique></Technique> -->
-        <Lines></Lines>
+      <Main></Main>
+       <Technique></Technique>
+        <!-- <Lines></Lines> -->
       <router-view />
     </v-main>
   </v-app>

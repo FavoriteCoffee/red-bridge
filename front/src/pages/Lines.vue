@@ -182,7 +182,7 @@
     import FeedbackForm from "../components/FeedbackForm.vue"
 </script>
 
-<style scoped>
+<style>
     .red-accent{
         padding: 10px 35px 10px 35px;
         background-color: #bc1e2d;
