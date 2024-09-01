@@ -18,6 +18,8 @@
                         ПРИ ВЫБОРЕ КАЧЕСТВЕННОГО ОБОРУДОВАНИЯ ИЗ КИТАЯ ДЛЯ ПРОИЗВОДСТВА, ЧЕРЕЗ НАС ВЫ МЕЖНТЕ ЗНАЧИТЕЛЬНО СЭКОНОМИТЬ 
                     </p>
                 </div>
+                
+                <TileMain></TileMain>
 
                 <h3>
                     Почему мы?
@@ -58,8 +60,9 @@
                     Завод по производству алюминиевых композитных панелей в Мордовии. Смотреть → Завод по производству подгузников для взрослых. Смотреть → Поставка для действующего завода производства одноразовых шприцев, полностью горячеканальных пресс-форм. Смотреть →
                 </p>
             </div>
-            <div id="form">
+            <div>
                 <FeedbackForm></FeedbackForm>
+                <Prime_news></Prime_news>
             </div>
         </div>
         
@@ -80,7 +83,8 @@
     import Footer from "../components/Footer.vue"
     import FeedbackForm from "../components/FeedbackForm.vue"
     import Grey_accent from "../components/Grey-accent.vue"
-    import kvadratikiTehnika from "@/components/kvadratiki-tehnika.vue"
+    import Prime_news from "../components/PrimeNews.vue"
+    import TileMain from "../components/TileMain.vue"
 </script>
 
 <style scoped>
@@ -93,7 +97,7 @@
     margin-top: 20px;
 }
 
-p{
+    p{
     margin: 0;
     padding: 0;
 }
