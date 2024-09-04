@@ -1,9 +1,10 @@
 <template>
   <v-app>
     <v-main>
-      <Main></Main>
-       <Technique></Technique>
+      <!-- <Main></Main> -->
+       <!-- <Technique></Technique> -->
         <!-- <Lines></Lines> -->
+         <Contacts></Contacts>
       <router-view />
     </v-main>
   </v-app>
@@ -13,4 +14,5 @@
   import Main from "./pages/Main.vue"
   import Technique from "./pages/Technique.vue"
   import Lines from "./pages/Lines"
+  import Contacts from "./pages/Contacts.vue"
 </script>

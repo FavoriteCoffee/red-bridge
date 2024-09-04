@@ -12,7 +12,7 @@
                 <input class="fbform-input" placeholder="Телефон" minlength="1" maxlength="100"/>
             </div>
             <div id="dfform-textarea" class="fbform-text">
-                <textarea id="dfform-textarea-input" class="fbform-input" placeholder="Краткое описание необходимого оборудования" minlength="1" maxlength="100"></textarea>
+                <textarea id="dfform-textarea-input" class="fbform-input" placeholder="Краткое описание необходимого оборудования" minlength="1" maxlength="1000"></textarea>
             </div>
         </div>
         <button class="fbform-button">
@@ -98,7 +98,7 @@ h2{
 
 #dfform-textarea-input{
     margin: 0;
-    padding-right: 20px;
+    padding-top: 20px;
     height: auto;
 }
 
