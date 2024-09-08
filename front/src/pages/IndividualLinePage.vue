@@ -32,6 +32,7 @@
                     <summary><h4>&#X203A; Специальное предложение</h4></summary>
                     <p>Раскрывающийся контент</p>
                 </details>
+                <a>Каталог ></a>
             </div>
             <OrderForm></OrderForm>
         </div>

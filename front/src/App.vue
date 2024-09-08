@@ -5,7 +5,8 @@
        <!-- <Technique></Technique> -->
         <!-- <Lines></Lines> -->
          <!-- <Contacts></Contacts> -->
-          <IndividualLinePages></IndividualLinePages>
+          <!-- <IndividualLinePages></IndividualLinePages> -->
+           <IndividualLineComponentPages></IndividualLineComponentPages>
       <router-view />
     </v-main>
   </v-app>
@@ -16,5 +17,6 @@
   import Technique from "./pages/Technique.vue"
   import Lines from "./pages/Lines"
   import Contacts from "./pages/Contacts.vue"
-  import IndividualLinePages from "./pages/IndividualLinePages.vue"
+  import IndividualLinePages from "./pages/IndividualLinePage.vue"
+  import IndividualLineComponentPages from "./pages/IndividualLineComponentPage.vue"
 </script>
