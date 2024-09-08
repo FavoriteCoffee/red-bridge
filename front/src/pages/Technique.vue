@@ -82,6 +82,7 @@ p{
     color: black;
     width: 68%;
     font-size: 14px;
+    margin-top: 20px;
 }
 </style>
 

@@ -17,7 +17,7 @@
         </div>
         <button class="fbform-button">
                 отправить
-            </button>
+        </button>
     </div>
 </template>
 
@@ -63,6 +63,7 @@ h2{
     padding-left: 20px;
     background-color: white;
     margin-bottom: 23px;
+    width: 100%;
 
 }
 

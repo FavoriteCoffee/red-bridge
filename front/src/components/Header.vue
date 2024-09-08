@@ -31,10 +31,18 @@
 
 
 <style>
-body{
-    font-family: 'Montserrat', sans-serif;
-    background-color: #fff;
-}
+    body{
+        font-family: 'Montserrat', sans-serif;
+        background-color: #fff;
+    }
+
+    .v-row{
+        margin: 0 !important;
+    }
+/* 
+    div{
+        overflow: hidden;
+    } */
 </style>
 
 <style scoped>
@@ -43,7 +51,7 @@ body{
         font-weight: bold;
         text-transform: uppercase;
         color: white;
-        margin: 20px 0 3px 0 ;
+        margin: 20px 0 0 0 ;
     }
 
     a{
@@ -72,11 +80,8 @@ body{
     .header-red-fild{
         background-color: #BC1E2d;
         width: 45%;
-        padding: 30px 0 45px 5%;
+        padding: 30px 0 30px 5%;
         float: left;
-    }
-
-    .v-row{
         margin: 0;
     }
 
@@ -90,6 +95,10 @@ body{
         height: 42px;
         border-radius: 30px;
         margin: 15px 0 0 0 ;
+    }
+
+    .header-nav{
+        height: 41px;
     }
 
     #triangle-topleft {

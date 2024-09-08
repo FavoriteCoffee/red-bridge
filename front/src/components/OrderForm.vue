@@ -1,6 +1,6 @@
 <template>
     <div id="fbform">
-        <p class="fbform-title">сделать заказ оборудования</p>
+        <p class="fbform-title">заказать оборудование</p>
         <div>
             <div class="fbform-text">
                 <input class="fbform-input" placeholder="Ваше имя" minlength="1" maxlength="100"/>
@@ -66,7 +66,7 @@ h2{
     padding-left: 20px;
     background-color: white;
     margin-bottom: 23px;
-
+    width: 100%;
 }
 
 .fbform-title{

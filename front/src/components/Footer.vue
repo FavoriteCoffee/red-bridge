@@ -42,16 +42,16 @@
                     </v-row>
                     <v-row id="social-network">
                         <v-col>
-                            <img style="height: 15px;" src="../../VK1.png">
+                            <img class="social-network-img" style="height: 15px;" src="../../VK1.png">
                         </v-col>
                         <v-col>
-                            <img style="height: 24px;" src="../../WhatsApp1.png">
+                            <img class="social-network-img" style="height: 24px;" src="../../WhatsApp1.png">
                         </v-col>
                         <v-col>
-                            <img style="height: 18px;" src="../../Telegramm.png">
+                            <img class="social-network-img" style="height: 18px;" src="../../Telegramm.png">
                         </v-col>
                         <v-col>
-                            <img style="height: 17px;" src="../../YouTube1.png">
+                            <img class="social-network-img" style="height: 17px;" src="../../YouTube1.png">
                         </v-col>
                     </v-row>
                 </v-col>
@@ -65,6 +65,10 @@
 </script>
 
 <style>
+.social-network-img{
+    margin-top: 60px;
+}
+
 .content{
     width: 1000px;
     margin: 0 auto;
