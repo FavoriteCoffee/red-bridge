@@ -5,7 +5,7 @@
                 <diV class="sqr">
                     <div class="nav-image">
                         <p class="sqr-title">
-                            <img  src="../../дорожное.png">
+                            <img  src="../../public/дорожное.png">
                             <a class="mainCategoriesTitle">ДОРОЖНОЕ</a>
                         </p>
                         <h5 class="mainCategoriesSubtitle">количество штук 5</h5>
@@ -16,7 +16,7 @@
                 <diV class="sqr">
                     <div class="nav-image">
                         <p class="sqr-title">
-                            <img src="../../медицинское.png">
+                            <img src="../../public/медицинское.png">
                             <a class="mainCategoriesTitle">МЕДИЦИНСКОЕ</a>
                         </p>
                         <h5 class="mainCategoriesSubtitle">количество штук 5</h5>
@@ -27,7 +27,7 @@
                 <diV class="sqr">
                     <div class="nav-image">
                         <p class="sqr-title">
-                            <img src="../../перерабатывающее.png">
+                            <img src="../../public/перерабатывающее.png">
                             <a class="mainCategoriesTitle">ПЕРЕРАБАТЫВАЮЩЕЕ</a>
                         </p>
                         <h5 class="mainCategoriesSubtitle">количество штук 5</h5>
@@ -40,7 +40,7 @@
             <v-col cols="4">
                 <diV class="sqr">
                     <div class="nav-image">
-                        <p class="sqr-title"><img src="../../пищевое.png">
+                        <p class="sqr-title"><img src="../../public/пищевое.png">
                             <a class="mainCategoriesTitle">ПИЩЕВОЕ</a>
                         </p>
                         <h5 class="mainCategoriesSubtitle">количество штук 5</h5>
@@ -51,7 +51,7 @@
                 <diV class="sqr">
                     <div class="nav-image">
                         <p class="sqr-title">
-                            <img src="../../промышленное.png">
+                            <img src="../../public/промышленное.png">
                             <a class="mainCategoriesTitle">ПРОМЫШЛЕННОЕ</a>
                         </p>
                         <h5 class="mainCategoriesSubtitle">количество штук 5</h5>
@@ -62,7 +62,7 @@
             <v-col cols="4">
                 <diV class="sqr">
                     <div class="nav-image">
-                        <p class="sqr-title"><img src="../../развлекательное.png">
+                        <p class="sqr-title"><img src="../../public/развлекательное.png">
                             <a class="mainCategoriesTitle">РАЗВЛЕКАТЕЛЬНОЕ</a>
                         </p>
                         <h5 class="mainCategoriesSubtitle">количество штук 5</h5>
@@ -76,7 +76,7 @@
                 <diV class="sqr">
                     <div class="nav-image">
                         <p class="sqr-title">
-                            <img src="../../аграрное.png">
+                            <img src="../../public/аграрное.png">
                             <a class="mainCategoriesTitle">АГРАРНОЕ</a>
                         </p>
                         <h5 class="mainCategoriesSubtitle">количество штук 5</h5>
@@ -88,7 +88,7 @@
                 <diV class="sqr">
                     <div class="nav-image">
                         <p class="sqr-title">
-                            <img src="../../строительное.png">
+                            <img src="../../public/строительное.png">
                             <a class="mainCategoriesTitle">СТРОИТЕЛЬНОЕ</a>
                         </p>
                         <h5 class="mainCategoriesSubtitle">количество штук 5</h5>
@@ -100,7 +100,7 @@
                 <diV class="sqr">
                     <div class="nav-image">
                         <p class="sqr-title">
-                            <img src="../../химическое.png">
+                            <img src="../../public/химическое.png">
                             <a class="mainCategoriesTitle">ХИМИЧЕСКОЕ</a>
                         </p>
                         <h5 class="mainCategoriesSubtitle">количество штук 5</h5>

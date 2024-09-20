@@ -57,16 +57,16 @@
                     </v-row>
                     <v-row id="social-network">
                         <v-col>
-                            <img class="social-network-img" style="height: 15px;" src="../../VK1.png">
+                            <img class="social-network-img" style="height: 15px;" src="../../public/VK1.png">
                         </v-col>
                         <v-col>
-                            <img class="social-network-img" style="height: 24px;" src="../../WhatsApp1.png">
+                            <img class="social-network-img" style="height: 24px;" src="../../public/WhatsApp1.png">
                         </v-col>
                         <v-col>
-                            <img class="social-network-img" style="height: 18px;" src="../../Telegramm.png">
+                            <img class="social-network-img" style="height: 18px;" src="../../public/Telegramm.png">
                         </v-col>
                         <v-col>
-                            <img class="social-network-img" style="height: 17px;" src="../../YouTube1.png">
+                            <img class="social-network-img" style="height: 17px;" src="../../public/YouTube1.png">
                         </v-col>
                     </v-row>
                 </v-col>

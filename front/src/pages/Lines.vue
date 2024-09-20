@@ -21,7 +21,7 @@
                         <diV class="sqr">
                             <div class="nav-image">
                                 <p class="sqr-title">
-                                    <img  src="../../favicon.ico">
+                                    <img  src="../assets/logo.png">
                                     Экскаватор WYL-3.OB
                                 </p>
                             </div>
@@ -31,7 +31,7 @@
                         <diV class="sqr">
                             <div class="nav-image">
                                 <p class="sqr-title">
-                                    <img src="../../favicon.ico">
+                                    <img src="../assets/logo.png">
                                     танк Т-80
                                 </p>
                             </diV>
@@ -41,7 +41,7 @@
                         <diV class="sqr">
                             <div class="nav-image">
                                 <p class="sqr-title">
-                                    <img src="../../favicon.ico">
+                                    <img src="../assets/logo.png">
                                     танк Т-80
                                 </p>
                             </div>
@@ -53,7 +53,7 @@
                     <v-col cols="4">
                         <diV class="sqr">
                             <div class="nav-image">
-                                <p class="sqr-title"><img src="../../favicon.ico">
+                                <p class="sqr-title"><img src="../assets/logo.png">
                                     танк Т-80
                                 </p>
                             </div>
@@ -63,7 +63,7 @@
                         <diV class="sqr">
                             <div class="nav-image">
                                 <p class="sqr-title">
-                                    <img src="../../favicon.ico">
+                                    <img src="../assets/logo.png">
                                     танк Т-80
                                 </p>
                             </div>
@@ -73,7 +73,7 @@
                     <v-col cols="4">
                         <diV class="sqr">
                             <div class="nav-image">
-                                <p class="sqr-title"><img src="../../favicon.ico">
+                                <p class="sqr-title"><img src="../assets/logo.png">
                                     танк Т-80
                                 </p>
                             </div>
@@ -86,7 +86,7 @@
                         <diV class="sqr">
                             <div class="nav-image">
                                 <p class="sqr-title">
-                                    <img src="../../favicon.ico">
+                                    <img src="../assets/logo.png">
                                     танк Т-80
                                 </p>
                             </div>
@@ -97,7 +97,7 @@
                         <diV class="sqr">
                             <div class="nav-image">
                                 <p class="sqr-title">
-                                    <img src="../../favicon.ico">
+                                    <img src="../assets/logo.png">
                                     танк Т-80
                                 </p>
                             </div>
@@ -108,7 +108,7 @@
                         <diV class="sqr">
                             <div class="nav-image">
                                 <p class="sqr-title">
-                                    <img src="../../favicon.ico">
+                                    <img src="../assets/logo.png">
                                     танк Т-80
                                 </p>
                             </div>
@@ -121,7 +121,7 @@
                         <diV class="sqr">
                             <div class="nav-image">
                                 <p class="sqr-title">
-                                    <img src="../../favicon.ico">
+                                    <img src="../assets/logo.png">
                                     танк Т-80
                                 </p>
                             </div>
@@ -132,7 +132,7 @@
                         <diV class="sqr">
                             <div class="nav-image">
                                 <p class="sqr-title">
-                                    <img src="../../favicon.ico">
+                                    <img src="../assets/logo.png">
                                     танк Т-80
                                 </p>
                             </div>
@@ -143,7 +143,7 @@
                         <diV class="sqr">
                             <div class="nav-image">
                                 <p class="sqr-title">
-                                    <img src="../../favicon.ico">
+                                    <img src="../assets/logo.png">
                                     танк Т-80
                                 </p>
                             </div>

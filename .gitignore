@@ -1,5 +1,6 @@
 .DS_Store
 front/node_modules/
+node_modules/
 /dist
 /.m2/
 /back/target/
