@@ -4,10 +4,10 @@
             <router-link to="/main" class="nav-link">
                 <a class="top-nav">главная</a>
             </router-link> 
-            <router-link to="/main" class="nav-link">
+            <router-link to="/news" class="nav-link">
                 <a class="top-nav">новости</a>
             </router-link> 
-            <router-link to="/main" class="nav-link">
+            <router-link to="/lines" class="nav-link">
                 <a class="top-nav">линии</a>
             </router-link> 
             <router-link to="/technique" class="nav-link">
@@ -19,7 +19,7 @@
             <router-link to="/main" class="nav-link">
                 <a class="top-nav">о нас</a>
             </router-link>  
-            <router-link to="/main" class="nav-link">
+            <router-link to="/contacts" class="nav-link">
                 <a class="top-nav">контакты</a>
             </router-link>     
             

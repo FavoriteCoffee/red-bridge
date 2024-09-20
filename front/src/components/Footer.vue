@@ -7,10 +7,16 @@
                         <h4>Наша продукция</h4>
                     </v-row>    
                     <v-row>
-                        <a class="footer-nav">Линии</a>
+                        <router-link to="/lines" class="footer-nav">
+                            <a>Линии</a>
+                        </router-link> 
+                        
                     </v-row>
                     <v-row>
-                        <a class="footer-nav">Техника</a>
+                        <router-link to="/technique" class="footer-nav">
+                            <a>Техника</a>
+                        </router-link> 
+                       
                     </v-row>
                 </v-col>
                 <v-col cols="5">
@@ -18,13 +24,22 @@
                         <h4>Информация для клиентов</h4>
                     </v-row>
                     <v-row>
-                        <a class="footer-nav">О нас</a>
+                        <router-link to="/lines" class="footer-nav">
+                            <a>О нас</a>
+                        </router-link> 
+                        
                     </v-row>
                     <v-row>
-                        <a class="footer-nav">Каталог оборудования</a>
+                        <router-link to="/lines" class="footer-nav">
+                            <a>Каталог оборудования</a>
+                        </router-link> 
+                        
                     </v-row>
                     <v-row>
-                        <a class="footer-nav">Как купить</a>
+                        <router-link to="/lines" class="footer-nav">
+                            <a>Как купить</a>
+                        </router-link> 
+                        
                     </v-row>
                 </v-col cols="3">
                 <v-col id="footer-nav-col3">
@@ -109,6 +124,7 @@
     text-decoration-thickness: 0.5px;
     letter-spacing: 0.05em;
     margin-bottom: 5px;
+    color: #fff;
 }
 
 h4{

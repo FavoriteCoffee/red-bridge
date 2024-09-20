@@ -1,13 +1,14 @@
 <template>
+
     <div class="header-red-fild">
         <v-row class="header-nav"> 
-            <router-link to="/main" class="nav-link">
+            <router-link to="/lines" class="nav-link">
                 <a>линии</a>
             </router-link>
             <router-link to="/technique" class="nav-link">
                 <a>техника </a>
             </router-link>
-            <router-link to="/main" class="nav-link">
+            <router-link to="/news" class="nav-link">
                 <a >новости</a>
             </router-link> 
             <router-link to="/main" id="last" class="nav-link">
@@ -15,7 +16,10 @@
             </router-link> 
         </v-row>
         <v-row class="header-title">
-            <h1>Красный мост</h1>
+            <router-link to="/lines" class="nav-link" style="text-decoration: none;">
+                <h1>Красный мост</h1>
+            </router-link>
+            
         </v-row>
         <v-row class="chinese-number">
             <h5>+10 8613910036529</h5>
@@ -26,6 +30,10 @@
         <button class="header-button">заявка</button>
     </div>
     <div id="triangle-topleft"></div>
+    <div class="header-white-fild">
+        <img src="../assets/redBridge.png">
+    </div>
+
 </template>
 
 
@@ -77,6 +85,17 @@
         margin: 0;
     }
 
+    img {
+        position: relative;
+        top: 90px;
+        left: -90px;
+    }
+
+    .header-white-fild {
+        
+        width: 10%;
+    }
+
     .header-red-fild{
         background-color: #BC1E2d;
         width: 45%;
@@ -112,4 +131,7 @@
         margin: 0;
     }
     
+    .header-title {
+        text-decoration: none !important;
+    }
 </style>
