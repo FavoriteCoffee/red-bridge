@@ -1,21 +1,22 @@
 
 import { createRouter, createWebHistory } from 'vue-router'
-import Main from "../pages/Main.vue"
+import Main from "../pages/Main.vue";
 import News from "../pages/News.vue";
 import Technique from "../pages/Technique.vue";
-
+import Lines from "../pages/Lines.vue";
+import Contacts from '@/pages/Contacts.vue';
+// import Video from "../pages/Video.vue";
 
 const router = createRouter({
   history: createWebHistory(),
   routes: [
-    { path: '/main', component: Main},
+    { path: '/main', component: Main, alias: '/'},
     { path: '/news', component: News},
     { path: '/technique', component: Technique},
+    { path: '/lines', component: Lines},
+    { path: '/contacts', component: Contacts},
   ]
 })
-
-
-
 
 
 export default router

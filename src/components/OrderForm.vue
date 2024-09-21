@@ -1,6 +1,6 @@
 <template>
     <div id="fbform">
-        <p class="fbform-title">оставить заявку</p>
+        <p class="fbform-title">заказать оборудование</p>
         <div>
             <div class="fbform-text">
                 <input class="fbform-input" placeholder="Ваше имя" minlength="1" maxlength="100"/>
@@ -11,12 +11,15 @@
             <div class="fbform-text">
                 <input class="fbform-input" placeholder="Телефон" minlength="1" maxlength="100"/>
             </div>
+            <div class="fbform-text">
+                <input class="fbform-input" placeholder="Тема сообщения" minlength="1" maxlength="100"/>
+            </div>
             <div id="dfform-textarea" class="fbform-text">
-                <textarea id="dfform-textarea-input" class="fbform-input" placeholder="Краткое описание необходимого оборудования" minlength="1" maxlength="1000"></textarea>
+                <textarea id="dfform-textarea-input" class="fbform-input" placeholder="Сообщение" minlength="1" maxlength="1000"></textarea>
             </div>
         </div>
         <button class="fbform-button">
-                отправить
+                заказать
         </button>
     </div>
 </template>
@@ -64,7 +67,6 @@ h2{
     background-color: white;
     margin-bottom: 23px;
     width: 100%;
-
 }
 
 .fbform-title{
