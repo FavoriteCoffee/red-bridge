@@ -13,7 +13,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/red-bridge',
+  // base: '/red-bridge',
   plugins: [
     VueRouter(),
     Layouts(),
