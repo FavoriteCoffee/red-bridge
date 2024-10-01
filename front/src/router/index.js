@@ -10,11 +10,11 @@ import Contacts from '@/pages/Contacts.vue';
 const router = createRouter({
   history: createWebHistory(),
   routes: [
-    { path: '/main', component: Main, alias: '/'},
-    { path: '/news', component: News},
-    { path: '/technique', component: Technique},
-    { path: '/lines', component: Lines},
-    { path: '/contacts', component: Contacts},
+    { path: '/red-bridge/main', component: Main, alias: '/red-bridge/'},
+    { path: '/red-bridge/news', component: News},
+    { path: '/red-bridge/technique', component: Technique},
+    { path: '/red-bridge/lines', component: Lines},
+    { path: '/red-bridge/contacts', component: Contacts},
   ]
 })
 
