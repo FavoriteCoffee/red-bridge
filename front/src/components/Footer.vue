@@ -13,7 +13,7 @@
                         
                     </v-row>
                     <v-row>
-                        <router-link to="/red-bridge/news" class="footer-nav">
+                        <router-link to="/red-bridge/technique" class="footer-nav">
                             <a>Техника</a>
                         </router-link> 
                        

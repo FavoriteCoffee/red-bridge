@@ -16,7 +16,7 @@
             </router-link> 
         </v-row>
         <v-row class="header-title">
-            <router-link to="/red-bridge/red-bridge/main" class="nav-link" style="text-decoration: none;">
+            <router-link to="/red-bridge/main" class="nav-link" style="text-decoration: none;">
                 <h1>Красный мост</h1>
             </router-link>
             
