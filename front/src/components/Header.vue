@@ -2,21 +2,21 @@
 
     <div class="header-red-fild">
         <v-row class="header-nav"> 
-            <router-link to="/lines" class="nav-link">
+            <router-link to="/red-bridge/lines" class="nav-link">
                 <a>линии</a>
             </router-link>
-            <router-link to="/technique" class="nav-link">
-                <a>техника </a>
+            <router-link to="/red-bridge/technique" class="nav-link">
+                <a>техника</a>
             </router-link>
-            <router-link to="/news" class="nav-link">
-                <a >новости</a>
+            <router-link to="/red-bridge/main" class="nav-link">
+                <a>новости</a>
             </router-link> 
-            <router-link to="/main" id="last" class="nav-link">
-                <a id="last" >видео</a>
+            <router-link to="/red-bridge/main" id="last" class="nav-link">
+                <a id="last">видео</a>
             </router-link> 
         </v-row>
         <v-row class="header-title">
-            <router-link to="/lines" class="nav-link" style="text-decoration: none;">
+            <router-link to="/red-bridge/red-bridge/main" class="nav-link" style="text-decoration: none;">
                 <h1>Красный мост</h1>
             </router-link>
             

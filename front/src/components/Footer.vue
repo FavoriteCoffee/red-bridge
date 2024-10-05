@@ -7,16 +7,26 @@
                         <h4>Наша продукция</h4>
                     </v-row>    
                     <v-row>
-                        <router-link to="/lines" class="footer-nav">
+                        <router-link to="/red-bridge/lines" class="footer-nav">
                             <a>Линии</a>
                         </router-link> 
                         
                     </v-row>
                     <v-row>
-                        <router-link to="/technique" class="footer-nav">
+                        <router-link to="/red-bridge/news" class="footer-nav">
                             <a>Техника</a>
                         </router-link> 
                        
+                    </v-row>
+                    <v-row>
+                        <router-link to="/red-bridge/line-page" class="footer-nav">
+                            <a>Демонстрационная страница линий</a>
+                        </router-link>
+                    </v-row>
+                    <v-row>
+                        <router-link to="/red-bridge/line-component-page" class="footer-nav">
+                            <a>Демонстрационная страница компонентов линий</a>
+                        </router-link>
                     </v-row>
                 </v-col>
                 <v-col cols="5">
@@ -24,19 +34,19 @@
                         <h4>Информация для клиентов</h4>
                     </v-row>
                     <v-row>
-                        <router-link to="/lines" class="footer-nav">
+                        <router-link to="/red-bridge/lines" class="footer-nav">
                             <a>О нас</a>
                         </router-link> 
                         
                     </v-row>
                     <v-row>
-                        <router-link to="/lines" class="footer-nav">
+                        <router-link to="/red-bridge/lines" class="footer-nav">
                             <a>Каталог оборудования</a>
                         </router-link> 
                         
                     </v-row>
                     <v-row>
-                        <router-link to="/lines" class="footer-nav">
+                        <router-link to="/red-bridge/lines" class="footer-nav">
                             <a>Как купить</a>
                         </router-link> 
                         

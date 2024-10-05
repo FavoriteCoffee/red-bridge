@@ -5,6 +5,8 @@ import News from "../pages/News.vue";
 import Technique from "../pages/Technique.vue";
 import Lines from "../pages/Lines.vue";
 import Contacts from '@/pages/Contacts.vue';
+import IndividualLineComponentPage from '@/pages/IndividualLineComponentPage.vue';
+import IndividualLinePage from '@/pages/IndividualLinePage.vue';
 // import Video from "../pages/Video.vue";
 
 const router = createRouter({
@@ -15,6 +17,8 @@ const router = createRouter({
     { path: '/red-bridge/technique', component: Technique},
     { path: '/red-bridge/lines', component: Lines},
     { path: '/red-bridge/contacts', component: Contacts},
+    { path: '/red-bridge/line-page', component: IndividualLinePage},
+    { path: '/red-bridge/line-component-page', component: IndividualLineComponentPage},
   ]
 })
 

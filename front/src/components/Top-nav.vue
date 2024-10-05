@@ -1,25 +1,25 @@
 <template>
     <div id="top-nav-ext">   
         <div id="top-nav-in">
-            <router-link to="/main" class="nav-link">
+            <router-link to="/red-bridge/main" class="nav-link">
                 <a class="top-nav">главная</a>
             </router-link> 
-            <router-link to="/news" class="nav-link">
+            <router-link to="/red-bridge/main" class="nav-link">
                 <a class="top-nav">новости</a>
             </router-link> 
-            <router-link to="/lines" class="nav-link">
+            <router-link to="/red-bridge/lines" class="nav-link">
                 <a class="top-nav">линии</a>
             </router-link> 
-            <router-link to="/technique" class="nav-link">
+            <router-link to="/red-bridge/technique" class="nav-link">
                 <a class="top-nav" >техника </a>
             </router-link> 
-            <router-link to="/main" class="nav-link">
+            <router-link to="/red-bridge/main" class="nav-link">
                 <a class="top-nav">видео</a>
             </router-link> 
-            <router-link to="/main" class="nav-link">
+            <router-link to="/red-bridge/main" class="nav-link">
                 <a class="top-nav">о нас</a>
             </router-link>  
-            <router-link to="/contacts" class="nav-link">
+            <router-link to="/red-bridge/contacts" class="nav-link">
                 <a class="top-nav">контакты</a>
             </router-link>     
             
