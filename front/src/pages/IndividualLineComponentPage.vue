@@ -8,7 +8,7 @@
     <v-row>
         <div class="content">
             <div class="main-content">
-                <p style="text-align: center;"><img src="../../public/WhatsApp.jpg" class="lines-img"> </p>
+                <p style="text-align: center;"><img src="../assets/nophoto.png" class="lines-img"> </p>
                 <h4 class="lines-title">Деталь линии 3000Х</h4>
                 <div class="hr"></div>
                 <p>Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание </p>
