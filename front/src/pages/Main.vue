@@ -1,6 +1,6 @@
 <template>
  
-    <v-row>
+    <v-row style="overflow: hidden;">
         <Header></Header>
     </v-row>    
     <v-row>

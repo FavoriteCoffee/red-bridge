@@ -8,7 +8,7 @@
             <router-link to="/red-bridge/technique" class="nav-link">
                 <a>техника</a>
             </router-link>
-            <router-link to="/red-bridge/main" class="nav-link">
+            <router-link to="/red-bridge/news" class="nav-link">
                 <a>новости</a>
             </router-link> 
             <router-link to="/red-bridge/main" id="last" class="nav-link">
@@ -33,9 +33,13 @@
     <div class="header-white-fild">
         <img src="../assets/redBridge.png">
     </div>
+    <div id="feedbackForm"></div>
 
 </template>
 
+<script setup>
+
+</script>
 
 
 <style>

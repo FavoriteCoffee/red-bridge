@@ -34,7 +34,7 @@
                         <h4>Информация для клиентов</h4>
                     </v-row>
                     <v-row>
-                        <router-link to="/red-bridge/lines" class="footer-nav">
+                        <router-link to="/red-bridge/about-as" class="footer-nav">
                             <a>О нас</a>
                         </router-link> 
                         

@@ -4,7 +4,7 @@
             <router-link to="/red-bridge/main" class="nav-link">
                 <a class="top-nav">главная</a>
             </router-link> 
-            <router-link to="/red-bridge/main" class="nav-link">
+            <router-link to="/red-bridge/news" class="nav-link">
                 <a class="top-nav">новости</a>
             </router-link> 
             <router-link to="/red-bridge/lines" class="nav-link">
@@ -16,7 +16,7 @@
             <router-link to="/red-bridge/main" class="nav-link">
                 <a class="top-nav">видео</a>
             </router-link> 
-            <router-link to="/red-bridge/main" class="nav-link">
+            <router-link to="/red-bridge/about-as" class="nav-link">
                 <a class="top-nav">о нас</a>
             </router-link>  
             <router-link to="/red-bridge/contacts" class="nav-link">

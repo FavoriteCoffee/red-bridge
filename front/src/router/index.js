@@ -7,6 +7,7 @@ import Lines from "../pages/Lines.vue";
 import Contacts from '@/pages/Contacts.vue';
 import IndividualLineComponentPage from '@/pages/IndividualLineComponentPage.vue';
 import IndividualLinePage from '@/pages/IndividualLinePage.vue';
+import AboutUs from '@/pages/AboutUs.vue';
 // import Video from "../pages/Video.vue";
 
 const router = createRouter({
@@ -19,6 +20,7 @@ const router = createRouter({
     { path: '/red-bridge/contacts', component: Contacts},
     { path: '/red-bridge/line-page', component: IndividualLinePage},
     { path: '/red-bridge/line-component-page', component: IndividualLineComponentPage},
+    { path: '/red-bridge/about-as', component: AboutUs},
   ]
 })
 

@@ -1,5 +1,5 @@
 <template>
-    <div id="fbform">
+    <div id="feedbackForm">
         <p class="fbform-title">оставить заявку</p>
         <div>
             <div class="fbform-text">
@@ -103,7 +103,7 @@ h2{
     height: auto;
 }
 
-#fbform{
+#feedbackForm{
     background-color: #f5f5f5;
     color: black;
     width: 280px;

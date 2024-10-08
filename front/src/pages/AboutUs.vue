@@ -8,7 +8,7 @@
     <v-row>
         <div class="content">
             <div class="main-content">
-                <h2>Новости</h2>
+                <h2>Красный мост - Россия-Китай</h2>
             </div>
             <FeedbackForm></FeedbackForm>
         </div>
