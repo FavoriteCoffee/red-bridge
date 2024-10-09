@@ -27,18 +27,33 @@
         <v-row class="russian-number">
             <h5>+7 903 651-64-08</h5>
         </v-row>
-        <button class="header-button">заявка</button>
+        <button @click="scrollToMyElement" class="header-button">заявка</button>
     </div>
     <div id="triangle-topleft"></div>
     <div class="header-white-fild">
         <img src="../assets/redBridge.png">
     </div>
-    <div id="feedbackForm"></div>
+    <!-- <div ref="fbf"></div> -->
 
 </template>
 
-<script setup>
+<script>
+    import { useAppStore } from "../stores/app.js";
+   
 
+    export default {
+    setup() {
+        const myStore = useAppStore();
+
+        const scrollToMyElement = () => {
+        myStore.scrollToElement('feedbackForm');
+        };
+
+        return {
+        scrollToMyElement
+        };
+    }
+    }
 </script>
 
 

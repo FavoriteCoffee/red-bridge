@@ -1,7 +1,7 @@
 <template>
-    <div id="feedbackForm">
+    <div id="feedbackForm" ref="fbf">
         <p class="fbform-title">оставить заявку</p>
-        <div>
+        <div id="myElement">
             <div class="fbform-text">
                 <input class="fbform-input" placeholder="Ваше имя" minlength="1" maxlength="100"/>
             </div>
@@ -23,6 +23,8 @@
 
 <script setup>
     import { ref, computed } from 'vue';
+    import { useAppStore } from "../stores/app.js";
+    const myStore = useAppStore();
 
     const firstname = ref("")
     const valid = ref("")

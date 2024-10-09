@@ -75,6 +75,21 @@
     задать макс ширину мэйну
     сделать исчезание элементов при сужении экрана
     задать классы колонкам квадратиков -->
+
+
+
+    <div>
+
+        <!-- elements -->
+        <div v-for="(item, i) in items" ref="elements" :key="item.id">
+
+            <!-- element's content -->
+            <div>ID: {{ item.id }}</div>
+            <div>Name: {{ item.name }}</div>
+
+        </div>
+
+    </div>
 </template>
 
 <script setup>
@@ -85,6 +100,32 @@
     import Grey_accent from "../components/Grey-accent.vue"
     import Prime_news from "../components/PrimeNews.vue"
     import TileMain from "../components/TileMain.vue"
+
+    import { ref, onMounted } from "vue";
+
+    let items = [
+        { id: 1, name: "item name 1" },
+        { id: 2, name: "item name 2" },
+        { id: 3, name: "item name 3" },
+    ];
+
+    let elements = ref(null);
+
+    onMounted(() => {
+        
+        let all = elements.value;
+        let item1 = all[0];
+        let item2 = all[1];
+        let item3 = all[2];
+    
+        console.log([all, item1, item2, item3]);
+  
+  });
+
+  const goToRef = () => {
+    // elements.scrollIntoView({ behavior: 'smooth' })
+    console.log(elements)
+  }
 </script>
 
 <style scoped>
