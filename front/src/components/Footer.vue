@@ -53,7 +53,7 @@
                     </v-row>
                 </v-col cols="3">
                 <v-col id="footer-nav-col3">
-                    <v-row>
+                    <!-- <v-row>
                         <a class="material-symbols-outlined">call</a>
                         <p class="footer-nav" id="footer-contact1">                        
                             +10 8613910036529
@@ -64,7 +64,7 @@
                         <p class="footer-nav" id="footer-contact2">                       
                             +7 903 651-64-08
                         </p>
-                    </v-row>
+                    </v-row> -->
                     <v-row id="social-network">
                         <v-col>
                             <img class="social-network-img" style="height: 15px;" src="../../public/VK1.png">
